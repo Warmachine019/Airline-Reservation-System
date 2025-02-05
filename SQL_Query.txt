@@ -7,7 +7,6 @@ CREATE TABLE flights (
     destination VARCHAR(50),
     price DECIMAL(10,2)
 );
-
 INSERT INTO flights (depart_from, destination, price) VALUES 
 ('Delhi', 'Mumbai', 5000),
 ('Mumbai', 'Bangalore', 4500),
