@@ -1,0 +1,15 @@
+CREATE DATABASE airline_reservation;
+USE airline;
+
+CREATE TABLE flights (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    depart_from VARCHAR(50),
+    destination VARCHAR(50),
+    price DECIMAL(10,2)
+);
+
+INSERT INTO flights (depart_from, destination, price) VALUES 
+('Delhi', 'Mumbai', 5000),
+('Mumbai', 'Bangalore', 4500),
+('Chennai', 'Kolkata', 5500),
+('Hyderabad', 'Pune', 3200);
