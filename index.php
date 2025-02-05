@@ -50,14 +50,12 @@
             $depart = $_POST['depart'];
             $destination = $_POST['destination'];
 
-            // Connect to MySQL database
             $conn = new mysqli("localhost", "root", "", "airline_reservation");
 
             if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
             }
 
-            // Query to search for the flight
             $sql = "SELECT price FROM flights WHERE depart_from='$depart' AND destination='$destination'";
             $result = $conn->query($sql);
 
