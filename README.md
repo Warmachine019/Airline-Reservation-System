@@ -13,4 +13,4 @@ Airline Reservation system using html, PHP as well as mySQL. Uses XMAPP.
 9. Create a new table in the database using SQL by pasting "SQL_Query.txt".
 10. Finally, use this link to make everything work together "http://localhost/airline_reservation/index.php"
 
-This was my DBMS project in the 2nd year of college. Feel free to copy and distribute.
+This was my initial submission for a DBMS project in the 2nd year of college. Feel free to copy and distribute.
