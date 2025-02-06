@@ -10,11 +10,14 @@
         select, button { padding: 10px; margin: 10px; width: 200px; }
         button { background-color: #007BFF; color: white; border: none; cursor: pointer; }
         button:hover { background-color: #0056b3; }
+        img { max-width: 100%; height: auto; margin-bottom: 20px; }
     </style>
 </head>
 <body>
 
-    <h2>Airline Reservation System</h2>
+    <img src="AirVoyagerLogo.jpg" alt="Airline Logo" width="300">
+
+    <h2>Book your flight</h2>
     <form method="POST">
         <label for="depart">Depart From:</label>
         <select name="depart" id="depart">
